@@ -6,6 +6,6 @@
 NoCashThresholdLimits
 </h1>
 
-A simple mod that allows one to play any round from 1-9999 in sandbox mode! Also changes the Set Cash and Set Health popups to give up to 1000000000 cash/health.
+A simple mod that allows one to play any round from 1-9999 in sandbox mode! Also changes the Set Cash and Set Health popups to give up to 1000000000 cash/health :D.
 
 [![Requires BTD6 Mod Helper](https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/banner.png)](https://github.com/gurrenm3/BTD-Mod-Helper#readme)
