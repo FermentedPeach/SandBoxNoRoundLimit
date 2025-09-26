@@ -63,21 +63,6 @@ public class SandBoxNoRoundLimit : BloonsTD6Mod
         }
     }
 
-    //Fix the cash and health popups to give up to 999999999 money/health
-    [HarmonyPatch(typeof(Popup), nameof(Popup.ShowPopup))]
-    internal static class Popup_ShowPopup
-    {
-        [HarmonyPrefix]
-        private static void Prefix(Popup __instance)
-        {
-
-            if (__instance.gameObject.name.Contains("SetValuePopup"))
-            {
-                __instance.GetComponentInChildren<TMP_InputField>().characterLimit = 9;
-            }
-        }
-    }
-
     public override void OnApplicationStart()
     {
         ModHelper.Msg<SandBoxNoRoundLimit>("SandBoxNoRoundLimit loaded!");
