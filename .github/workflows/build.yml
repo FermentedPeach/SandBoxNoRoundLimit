@@ -8,7 +8,7 @@ on:
       - '*'
 
 env:
-  PROJECT_NAME: NoCashThresholdLimits
+  PROJECT_NAME: SandBoxNoRoundLimit
   
   MOD_HELPER_NAME: Btd6ModHelper
   BLOONSTD6: ./BloonsTD6
